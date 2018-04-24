@@ -50,6 +50,7 @@ public class Repostaje extends Fragment {
             }
         });
     }
+
     private void escribeDatos(){
         EditText editPrecio = (EditText) getActivity().findViewById(R.id.precio);
         EditText editKilometros = (EditText) getActivity().findViewById(R.id.kilometros);
