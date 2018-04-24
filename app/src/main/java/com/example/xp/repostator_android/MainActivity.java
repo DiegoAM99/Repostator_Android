@@ -69,9 +69,9 @@ public class MainActivity extends AppCompatActivity {
         String precio, kilometros, litros, dia,mes,anyo;
         double costeTotal;
         for (int i=1; i<=size; i++){
-            precio = sp.getString("precio" +i,"0");
-            kilometros = sp.getString("kilometros" +i,"0");
-            litros = sp.getString("litros" +i,"0");
+            precio = sp.getString("precio_" +i,"0");
+            kilometros = sp.getString("kilometros_" +i,"0");
+            litros = sp.getString("litros_" +i,"0");
             costeTotal = Double.valueOf(precio) * Double.valueOf(litros);
 
             dia = String.valueOf(sp.getInt("dia_"+i,0));
